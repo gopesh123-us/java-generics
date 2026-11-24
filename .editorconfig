@@ -1,0 +1,36 @@
+# EditorConfig configuration
+root = true
+
+# Default formatting conventions
+[*]
+charset = utf-8
+end_of_line = lf
+indent_style = space
+indent_size = 4
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+# Java
+[*.java]
+indent_size = 4
+
+# XML and Maven
+[*.xml]
+indent_size = 4
+
+# JSON and YAML
+[*.{json,yml,yaml}]
+indent_size = 2
+
+# Markdown
+[*.md]
+indent_size = 2
+
+# Windows command scripts
+[*.{bat,cmd}]
+end_of_line = crlf
+
+# Linux shell scripts
+[*.sh]
+end_of_line = lf
+indent_size = 4
